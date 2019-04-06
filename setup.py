@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 
-lambda_name = 'appsync-parameter-store-resolver '
+lambda_name = 'appsync-parameter-store-resolver'
 
 # Versions should comply with PEP440.  For a discussion on single-sourcing
 # the version across setup.py and the project code, see
@@ -27,8 +27,8 @@ lambda_license = 'APL2'
 
 # Who is the author?
 # TODO: Update the author
-lambda_author='Jishna Suresh'
-lambda_author_email='jsuresh@quinovas.com'
+lambda_author='Joseph Wortmann'
+lambda_author_email='jwortmann@quinovas.com'
 
 # List run-time dependencies here.  These will be installed by pip when
 # your project is installed. For an analysis of "install_requires" vs pip's
