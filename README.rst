@@ -110,6 +110,7 @@ For ``getParameters`` and ``getParametersByPath``:
   ]
 
 Example AWS Appsync schema:
+---------------------------
 
 .. code::
 
