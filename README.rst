@@ -26,21 +26,21 @@ The event is passed in as a JSON object. Examples:
 
   {
     "operation": "getParameter",
-    "attributes": {
+    "arguments": {
       "name": "name"
     }
   }
 
   {
     "operation": "getParameters",
-    "attributes": {
+    "arguments": {
       "names": ["name1", "name2]
     }
   }
 
   {
     "operation": "getParametersByPath",
-    "attributes": {
+    "arguments": {
       "path": "path",
       "recursive": true | false
     }
@@ -48,7 +48,7 @@ The event is passed in as a JSON object. Examples:
 
   {
     "operation": "putParameter",
-    "attributes": {
+    "arguments": {
       "name": "",
       "description": "",
       "value": "string",
