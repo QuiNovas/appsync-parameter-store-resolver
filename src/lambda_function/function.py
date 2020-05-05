@@ -79,7 +79,7 @@ def _get_parameters_by_path(arguments, next_token=None):
 			NextToken=next_token
 		)
 	parameters = list(map(_transform_parameter, response['Parameters']) if 'Parameters' in response else [])
-	return parameters if not 'NextToken' in response else parameters.extend(_get_parameters_by_path(arguments, response['NextToken']))
+	return parameters if not 'NextToken' in response else parameters + _get_parameters_by_path(arguments, response['NextToken'])
 
 
 def _transform_parameter(parameter):
